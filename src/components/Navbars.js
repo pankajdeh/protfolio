@@ -67,17 +67,13 @@ className='cursor-pointer pr-4 z-10 text-gray-500 md:hidden'>
                    <li 
                    key = {id}
                    className='px-4 cursor-pointer capitalize py-6 text-4xl'>
-                   {link}
+                   <Link onClick={() => setnav(!nav)} to={link} smooth duration={500} >{link}</Link>
                  </li>
            )
            )}
    
        </ul>
-   
-
-}
-
-        
+}       
     </div>
   )
 }
