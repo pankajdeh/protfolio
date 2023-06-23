@@ -1,12 +1,13 @@
 import React from 'react'
-import html from "../assets/logo.jpg"
-import css from "../assets/logo.jpg"
-import javascript from "../assets/logo.jpg"
-import reactImage from "../assets/logo.jpg"
-import nodejs from "../assets/logo.jpg"
-import graphql from "../assets/logo.jpg"
-import github from "../assets/logo.jpg"
-import talwind from "../assets/logo.jpg"
+import html from "../assets/html.png"
+import talwind from "../assets/talwindcss.jpg"
+import css from "../assets/css.png"
+import javascript from "../assets/javascript.png"
+import reactImage from "../assets/reactjs.png"
+import nodejs from "../assets/nodejs.jpg"
+import mongodb from "../assets/mongodb.png"
+import github from "../assets/github.png"
+// import talwind from "../assets/logo.jpg"
 
 
 const Experience = () => {
@@ -19,13 +20,13 @@ const Experience = () => {
             style:"shadow-orange-900"
         },
         {
-            id:2,
+            id:3,
             src:javascript,
             title:"JavaScript",
             style:"shadow-yellow-500"
         },
         {
-            id:3,
+            id:2,
             src:css,
             title:"Css",
             style:"shadow-blue-500"
@@ -34,7 +35,7 @@ const Experience = () => {
             id:4,
             src:reactImage,
             title:"React",
-            style:"shadow-blue-600"
+            style:"shadow-blue-500"
         },
         {
             id:5,
@@ -50,9 +51,9 @@ const Experience = () => {
         },
         {
             id:7,
-            src:graphql,
-            title:"GraphQl",
-            style:"shadow-pink-500"
+            src:mongodb,
+            title:"mongodb",
+            style:"shadow-green-500"
         },
         {
             id:8,
