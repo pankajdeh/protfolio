@@ -13,7 +13,7 @@ const SocialLinks = () => {
                 LinkedIn <FaLinkedin/>
                 </>
             ),
-            href:"https://linkedin.com",
+            href:"https://www.linkedin.com/in/pankaj-dehariya-4b58591a9/",
             style:"rounded-tr-md"
         },
         {
@@ -23,7 +23,7 @@ const SocialLinks = () => {
                 Github <FaGithub/>
                 </>
             ),
-            href:"https://linkedin.com",
+            href:"https://github.com/pankajdeh",
         },
         {
             id:3,
@@ -32,7 +32,7 @@ const SocialLinks = () => {
                 Mail <HiOutlineMail/>
                 </>
             ),
-            href:"mailto:foo@gmail.com",
+            href:"pankajdehariya.seo@mail.com",
         },
         {
             id:4,
