@@ -41,7 +41,7 @@ const SocialLinks = () => {
                 Resume <BsFillFileEarmarkPdfFill/>
                 </>
             ),
-            href:"./resume.pdf",
+            // href:"./resume.pdf",
             style:"rounded-tr-md",
             download:true
         },
