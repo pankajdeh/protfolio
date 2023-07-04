@@ -1,35 +1,39 @@
 import React from 'react'
-import one from "../assets/protfolio/one.jpg"
-import two from "../assets/protfolio/two.jpg"
-import three from "../assets/protfolio/three.png"
-
+import plan from "../assets/protfolio/plan with love.jpg"
+import razorpay from "../assets/protfolio/razorpay.jpg"
+import topCourses from "../assets/protfolio/top courses.jpg"
+import weather from "../assets/protfolio/weather app.jpg"
+import discord from "../assets/protfolio/discord.jpg"
+import shopping from "../assets/protfolio/shop.jpg"
 
 const Protfolio = () => {
 
     const protfolios = [
         {
             id:1,
-            src:one
+            src:shopping,
+            // to:'https://codehelp-shopping-cart.netlify.app/'
+            
         },
         {
             id:2,
-            src:two
+            src:plan
         },
         {
             id:3,
-            src:three
+            src:razorpay
         },
         {
-            id:1,
-            src:one
+            id:4,
+            src:discord
         },
         {
-            id:2,
-            src:two
+            id:5,
+            src:topCourses
         },
         {
-            id:3,
-            src:three
+            id:6,
+            src:weather
         },
     ]
 
@@ -47,7 +51,7 @@ const Protfolio = () => {
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 sm:px-0 mb-20 pb-12'>
 
             {
-                protfolios.map(({id, src}) => (
+                protfolios.map(({id, src, Demo}) => (
                     <div key={id} className='shadow-md shadow-gray-600 rounded-lg mx-auto' >
                     <img
                     src={src} 

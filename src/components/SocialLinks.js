@@ -32,7 +32,7 @@ const SocialLinks = () => {
                 Mail <HiOutlineMail/>
                 </>
             ),
-            href:"pankajdehariya.seo@mail.com",
+            href:"mailto:foogmail.com",
         },
         {
             id:4,
@@ -58,6 +58,7 @@ const SocialLinks = () => {
                  className='flex justify-between items-center w-full text-white text-xl  '
                  download={download}
                  target="_blank"
+                 rel='noreferrer'
                  >
                      {child}
                  </a>

@@ -16,9 +16,10 @@ const Home = () => {
                 <h2 className='text-4xl sm:text-7xl font-bold text-white mt-20' >I'm a Full Stack Developer...</h2>
                 <p 
                 className='text-gray-500 py-4 max-w-md'>
-                    I have 8 years of experience building and designing software.
+                    I have 1.5 years of experience building and designing website.
                     Currently, I love to work on web application using technologies like
-                    React, Talwind, Next.js and GraphQL
+                    React, Talwind, Next.js and GraphQL.
+
                 </p>
                 <button 
                 className=' group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer  '
