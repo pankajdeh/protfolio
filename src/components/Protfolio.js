@@ -5,6 +5,7 @@ import topCourses from "../assets/protfolio/top courses.jpg"
 import weather from "../assets/protfolio/weather app.jpg"
 import discord from "../assets/protfolio/discord.jpg"
 import shopping from "../assets/protfolio/shop.jpg"
+import { Link } from 'react-router-dom'
 
 const Protfolio = () => {
 
@@ -12,28 +13,39 @@ const Protfolio = () => {
         {
             id:1,
             src:shopping,
-            // to:'https://codehelp-shopping-cart.netlify.app/'
+            path:"https://shopping-cart-pankaj.netlify.app/"
             
         },
         {
             id:2,
-            src:plan
+            src:plan,
+            path:"https://tours-plan-pankaj.netlify.app/"
+
+
         },
         {
             id:3,
-            src:razorpay
+            src:razorpay,
+            path:""
+
         },
         {
             id:4,
-            src:discord
+            src:discord,
+            path:""
+
         },
         {
             id:5,
-            src:topCourses
+            src:topCourses,
+            path:"https://category-cards-pankaj.netlify.app/"
+
         },
         {
             id:6,
-            src:weather
+            src:weather,
+            path:""
+
         },
     ]
 
@@ -51,7 +63,7 @@ const Protfolio = () => {
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 sm:px-0 mb-20 pb-12'>
 
             {
-                protfolios.map(({id, src, Demo}) => (
+                protfolios.map(({id, src,path, Demo}) => (
                     <div key={id} className='shadow-md shadow-gray-600 rounded-lg mx-auto' >
                     <img
                     src={src} 
@@ -60,7 +72,13 @@ const Protfolio = () => {
                     />
                 
                     <div className='flex items-center justify-center '>
-                        <button className=' w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 '>Demo</button>
+                        
+                       <Link to={path}>
+                       <button className=' w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 '>
+                            Demo
+                        </button>
+                       </Link>
+                        
                         <button className=' w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 '>Code </button>
                     </div>
                 </div>

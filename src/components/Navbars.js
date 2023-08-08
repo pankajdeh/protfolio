@@ -35,7 +35,6 @@ const links = [
   return (
     
 
-
     <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed '>
       <div>
         <h1 className='px-6  text-5xl font-signature'>Pankaj</h1>
