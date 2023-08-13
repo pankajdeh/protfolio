@@ -9,15 +9,14 @@ const About = () => {
             <div className='pb-18'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500  '>About</p>
             </div>
-            <p className='text-xl mt-20 capitalize'>
-            Are you looking for a professional full stack developer to build beautiful websites?
-            <p className='text-xl mt-2 capitalize '>I specialize in WordPress, JavaScript, React, HTML5 and CSS3, Node.js, Express.js, MongoDB. Whether it's a modern website, an interactive website, or a WordPress site, with my deep knowledge and experience, I can bring your vision to life.</p>
+            <p className='text-xl mt-20 mb-20 '>
+            My name is Pankajt and I hail from Seoni Madhya Pradesh. I completed my matriculation from Seoni and am currently a 3rd year student pursuing a B.Tech degree in Chemical Engineering at the National Institute of Technology Warangal (NITW).
+            <p className='text-xl mt-2  '>Throughout my academic journey, I have developed a strong foundation in various programming languages and technologies. I have undertaken projects that reflect my proficiency in tools such as HTML,CSS, Tailwind Css, JavaScript, React.js, Node.js, Mongoose, MongoDB, Postman.
+            </p>
 
-            <p className='text-xl mt-2 capitalize'>I'm good at JavaScript and React, providing good solutions and answers. By using HTML5 and CSS3, your website will be visually appealing, user-friendly and optimized for search engines.</p>
-            <p className='text-xl mt-2 capitalize'>As a WordPress expert, I use plugins and themes to customize and optimize your website, making it work flawlessly.</p>
-            <p className='text-xl mt-2 capitalize'>You can expect professionalism, on-time delivery and good communication throughout the process.</p>
-            <p className='text-xl mt-2 capitalize'>Let's work together to create a visually appealing, functional and SEO friendly website that sets you apart. Contact me today to discuss your project needs.</p>
+            <p className='text-xl mt-2 '>In terms of technical proficiency, I am well-versed in C++ and have a working knowledge of Python. My experience in competitive programming and data structures and algorithms further underscores my problem-solving capabilities</p>
 
+            <p className='text-xl mt-2 '> I look forward to the opportunity to discuss how my background and experiences align with the requirements of the SDE role. Please feel free to contact me at 7723004423 or pankajdehariya.seo@gmail.com  to schedule an interview.</p>
             </p>
         </div>
     </div>

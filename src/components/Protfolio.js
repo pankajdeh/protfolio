@@ -1,9 +1,9 @@
 import React from 'react'
 import plan from "../assets/protfolio/plan with love.jpg"
-import razorpay from "../assets/protfolio/razorpay.jpg"
+// import razorpay from "../assets/protfolio/razorpay.jpg"
 import topCourses from "../assets/protfolio/top courses.jpg"
 import weather from "../assets/protfolio/weather app.jpg"
-import discord from "../assets/protfolio/discord.jpg"
+// import discord from "../assets/protfolio/discord.jpg"
 import shopping from "../assets/protfolio/shop.jpg"
 import { Link } from 'react-router-dom'
 
@@ -23,26 +23,26 @@ const Protfolio = () => {
 
 
         },
+        // {
+        //     id:3,
+        //     src:razorpay,
+        //     path:""
+
+        // },
+        // {
+        //     id:5,
+        //     src:discord,
+        //     path:""
+
+        // },
         {
             id:3,
-            src:razorpay,
-            path:""
-
-        },
-        {
-            id:4,
-            src:discord,
-            path:""
-
-        },
-        {
-            id:5,
             src:topCourses,
             path:"https://category-cards-pankaj.netlify.app/"
 
         },
         {
-            id:6,
+            id:4,
             src:weather,
             path:""
 
@@ -52,7 +52,7 @@ const Protfolio = () => {
   return (
     <div 
     name="protfolio"
-    className='bg-gradient-to-b from-black to-gray-800 w-full md:h-screen text-white'>
+    className='bg-gradient-to-b from-black to-gray-800 w-full md:h-screen text-white '>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full' > 
             <div className='pb-8'>
                 <p className=' text-4xl font-bold inline border-b-4 border-gray-500  ' >Protfolio</p>
