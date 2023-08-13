@@ -13,15 +13,15 @@ const Protfolio = () => {
         {
             id:1,
             src:shopping,
-            path:"https://shopping-cart-pankaj.netlify.app/"
+            path:"https://shopping-cart-pankaj.netlify.app/",
+            code:"https://github.com/pankajdeh/ecommerce-shopping-cart"
             
         },
         {
             id:2,
             src:plan,
-            path:"https://tours-plan-pankaj.netlify.app/"
-
-
+            path:"https://tours-plan-pankaj.netlify.app/",
+            code:"https://github.com/pankajdeh/tours-plan"
         },
         // {
         //     id:3,
@@ -38,13 +38,15 @@ const Protfolio = () => {
         {
             id:3,
             src:topCourses,
-            path:"https://category-cards-pankaj.netlify.app/"
+            path:"https://category-cards-pankaj.netlify.app/",
+            code:"https://github.com/pankajdeh/toast-cards"
 
         },
         {
             id:4,
             src:weather,
-            path:""
+            path:"https://weather-website-pankaj.netlify.app/",
+            code:"https://github.com/pankajdeh/weatherApp-code"
 
         },
     ]
@@ -63,7 +65,7 @@ const Protfolio = () => {
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 sm:px-0 mb-20 pb-12'>
 
             {
-                protfolios.map(({id, src,path, Demo}) => (
+                protfolios.map(({id, src,path, code}) => (
                     <div key={id} className='shadow-md shadow-gray-600 rounded-lg mx-auto' >
                     <img
                     src={src} 
@@ -78,14 +80,15 @@ const Protfolio = () => {
                             Demo
                         </button>
                        </Link>
+
+                       <Link to={code}>
+                       <button className=' w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 '>Code </button>   
+                       </Link>
                         
-                        <button className=' w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 '>Code </button>
                     </div>
                 </div>
                 ))
             }
-
-              
             </div>
 
         </div>
