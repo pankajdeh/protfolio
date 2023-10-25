@@ -5,6 +5,8 @@ import topCourses from "../assets/protfolio/top courses.jpg"
 import weather from "../assets/protfolio/weather app.jpg"
 // import discord from "../assets/protfolio/discord.jpg"
 import shopping from "../assets/protfolio/shop.jpg"
+import studyNotion from "../assets/protfolio/studynotion.jpg"
+
 import { Link } from 'react-router-dom'
 
 const Protfolio = () => {
@@ -12,19 +14,25 @@ const Protfolio = () => {
     const protfolios = [
         {
             id:1,
+            src:studyNotion,
+            path:"https://study-notion-edtech-project-78b7.vercel.app/",
+            code:"https://github.com/pankajdeh/studyNotion-edtech-project"
+        },
+        {
+            id:2,
             src:shopping,
             path:"https://shopping-cart-pankaj.netlify.app/",
             code:"https://github.com/pankajdeh/ecommerce-shopping-cart"
             
         },
         {
-            id:2,
+            id:3,
             src:plan,
             path:"https://tours-plan-pankaj.netlify.app/",
             code:"https://github.com/pankajdeh/tours-plan"
         },
         // {
-        //     id:3,
+        //     id:4,
         //     src:razorpay,
         //     path:""
 
@@ -36,14 +44,14 @@ const Protfolio = () => {
 
         // },
         {
-            id:3,
+            id:6,
             src:topCourses,
             path:"https://category-cards-pankaj.netlify.app/",
             code:"https://github.com/pankajdeh/toast-cards"
 
         },
         {
-            id:4,
+            id:7,
             src:weather,
             path:"https://weather-website-pankaj.netlify.app/",
             code:"https://github.com/pankajdeh/weatherApp-code"
